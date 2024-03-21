@@ -1,0 +1,17 @@
+.slick-list{
+    margin-right: -7%;
+}
+
+.slick-track{
+    display: flex;
+}
+.slick-initialized .slick-slide{
+    display: flex;
+    flex: 0 0 auto;
+}
+
+@media screen and (max-width:450px) {
+    .slick-list{
+        margin-right: -5%;
+    }
+}
